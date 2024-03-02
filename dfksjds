@@ -1,0 +1,22 @@
+[33mcommit 5f260fea61d3c0564fb894208c3732335941bf16[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: marlon <riveramarlon437@gmail.com>
+Date:   Fri Mar 1 07:11:21 2024 -0700
+
+    I made the structure of the recipes website
+    
+    using three different html files, and connect them
+    to the index.html
+    
+    also put some images to show how the plate should look
+
+[33mcommit cf1191ae10db347fdd495b003d0fcee33795aa47[m
+Author: marlon <riveramarlon437@gmail.com>
+Date:   Thu Feb 29 22:32:57 2024 -0700
+
+    I write down a brief resume on what is going to be the project about
+
+[33mcommit 4f074eae61aa9e81cfb27febd7228c3434f6372a[m
+Author: Marlon <101485125+Marlon2123@users.noreply.github.com>
+Date:   Thu Feb 29 22:19:49 2024 -0700
+
+    Initial commit

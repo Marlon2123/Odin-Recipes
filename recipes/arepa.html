@@ -7,11 +7,7 @@
       rel="icon"
       href="https://www.theodinproject.com/assets/icons/odin-icon-a34029cd84a741be4da27758dafd7d7ac3729021adea3e0701e310d91e5c1d04.svg"
     />
-    <style>
-      img {
-        object-fit: cover;
-      }
-    </style>
+    <link rel="stylesheet" href="/style.css" />
     <title>Recipes Arepa</title>
   </head>
   <body>
@@ -23,85 +19,103 @@
       width="400px"
     />
     <!-- Describing the recip[e in a bigger picture -->
-    <p>
-      This recipe details how to make delicious arepas, a traditional Venezuelan
-      dish. It starts by combining cornmeal, water, and salt to form a dough.
-      After resting, the dough is divided and shaped into flat discs. These are
-      then cooked in a skillet with butter until golden and crispy. The recipe
-      suggests various fillings like cheese, shredded meat, or beans, and offers
-      tips for customization and achieving a more authentic flavor.
-    </p>
+    <section>
+      <article class="container-a">
+        <p>
+          This recipe details how to make delicious <strong>Arepas</strong>, a
+          traditional Venezuelan dish. It starts by combining cornmeal, water,
+          and salt to form a dough. After resting, the dough is divided and
+          shaped into flat discs. These are then cooked in a skillet with butter
+          until golden and crispy. The recipe suggests various fillings like
+          cheese, shredded meat, or beans, and offers tips for customization and
+          achieving a more authentic flavor.
+        </p>
+      </article>
 
-    <h2>step-by-step</h2>
+      <h2>step-by-step</h2>
 
-    <span>Ingridients</span>
+      <span>Ingridients</span>
+      <div class="uls">
+        <ul>
+          <li>Cornmeal</li>
+          <li>Water</li>
+          <li>Salt</li>
+          <li>Butter</li>
+        </ul>
+      </div>
+      <!-- give the instruction more in detailed step by step -->
+      <h3>Instructions</h3>
 
-    <ul>
-      <li>Cornmeal</li>
-      <li>Water</li>
-      <li>Salt</li>
-      <li>Butter</li>
-    </ul>
-    <!-- give the instruction more in detailed step by step -->
-    <h3>Instructions</h3>
+      <span><strong>Step 1</strong></span>
+      <div class="uls">
+        <ol>
+          <li>In a large bowl, combine the cornmeal, water, and salt.</li>
+          <li>Mix thoroughly until a smooth, lump-free dough is formed.</li>
+          <li>Let the dough rest at room temperature for about 5 minutes.</li>
+        </ol>
+      </div>
 
-    <span><strong>Step 1</strong></span>
+      <span><strong>Step 2</strong></span>
+      <div class="uls">
+        <ol>
+          <li>Divide the dough into 18 equal portions.</li>
+          <li>
+            Shape each portion into a disc about 3 inches in diameter and 1/4
+            inch thick.
+          </li>
+        </ol>
+      </div>
 
-    <ol>
-      <li>In a large bowl, combine the cornmeal, water, and salt.</li>
-      <li>Mix thoroughly until a smooth, lump-free dough is formed.</li>
-      <li>Let the dough rest at room temperature for about 5 minutes.</li>
-    </ol>
+      <span><strong>Step 3</strong></span>
+      <div class="uls">
+        <ol>
+          <li>
+            Heat a skillet over medium-low heat and grease lightly with butter.
+          </li>
+          <li>
+            Fry the arepas in batches until golden brown and crispy on both
+            sides.
+          </li>
+          <li>Serve hot with your favorite filling.</li>
+        </ol>
+      </div>
 
-    <span><strong>Step 2</strong></span>
+      <span><strong>Tips</strong></span>
+      <div class="uls special">
+        <ul>
+          <li>
+            You can add a little olive oil to the dough for a richer flavor.
+          </li>
+          <li>
+            If the dough is too dry, add a little more water. If it is too wet,
+            add a little more cornmela
+          </li>
+          <li>
+            You can use a griddle to cook the arepas instead of a skillet.
+          </li>
+          <li>
+            For a more authentic flavor, cook the arepas on a budare (a cast
+            iron griddle).
+          </li>
+        </ul>
+      </div>
 
-    <ol>
-      <li>Divide the dough into 18 equal portions.</li>
-      <li>
-        Shape each portion into a disc about 3 inches in diameter and 1/4 inch
-        thick.
-      </li>
-    </ol>
+      <span><strong>Fillings</strong></span>
+      <div class="uls">
+        <ul>
+          <li>Cheese</li>
+          <li>Shredded meat</li>
+          <li>Chicken</li>
+          <li>Beans</li>
+          <li>Avocado</li>
+          <li>Egg</li>
+          <li>Chicharon</li>
+        </ul>
+      </div>
 
-    <span><strong>Step 3</strong></span>
-
-    <ol>
-      <li>
-        Heat a skillet over medium-low heat and grease lightly with butter.
-      </li>
-      <li>
-        Fry the arepas in batches until golden brown and crispy on both sides.
-      </li>
-      <li>Serve hot with your favorite filling.</li>
-    </ol>
-
-    <span><strong>Tips</strong></span>
-
-    <ul>
-      <li>You can add a little olive oil to the dough for a richer flavor.</li>
-      <li>
-        If the dough is too dry, add a little more water. If it is too wet, add
-        a little more cornmela
-      </li>
-      <li>You can use a griddle to cook the arepas instead of a skillet.</li>
-      <li>
-        For a more authentic flavor, cook the arepas on a budare (a cast iron
-        griddle).
-      </li>
-    </ul>
-
-    <span><strong>Fillings</strong></span>
-
-    <ul>
-      <li>Cheese</li>
-      <li>Shredded meat</li>
-      <li>Chicken</li>
-      <li>Beans</li>
-      <li>Avocado</li>
-      <li>Egg</li>
-      <li>Chicharon</li>
-    </ul>
-
-    <span><strong>Enjoy your delicious Arepas!</strong></span>
+      <footer>
+        <span id="text"><strong>Enjoy your delicious Arepas!</strong></span>
+      </footer>
+    </section>
   </body>
 </html>
